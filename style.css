@@ -1,0 +1,177 @@
+ /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #4DB6AC; /* Fallback green-blue color */
+    background: url("pngtree-green-blue-gradient-background-soft-blur-website-banner-vector-image_15524650.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2e8b8e; /* Adjust color as needed */
+    color: white;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background: url('team-nurses-social-workers-helping-old-disabled-man-walk-with-his-crutches-out-nursing-home-room_482257-20730.jpg');
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Adjust as needed */
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: url('checkmark-icon.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Services Section */
+#services ul li {
+    margin-bottom: 20px;
+}
+
+.service-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three images in a row */
+    gap: 20px; /* Space between the images */
+}
+
+.service-images img {
+    width: 100%; /* Ensure the images take full width of their container */
+    height: 200px;
+    object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+}
+
+/* For smaller screens (responsive) */
+@media screen and (max-width: 768px) {
+    .service-images {
+        grid-template-columns: 1fr; /* Stack images vertically on smaller screens */
+    }
+}
+
+/* Why Choose Us Section */
+#why-choose-us {
+    background-color: #f9f9f9;
+}
+
+#why-choose-us ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
