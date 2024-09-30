@@ -54,13 +54,12 @@ nav ul li a:hover {
 /* Hero Section */
 #hero {
     background: url('team-nurses-social-workers-helping-old-disabled-man-walk-with-his-crutches-out-nursing-home-room_482257-20730.jpg');
-    height: auto;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-align: center;
-    width: 100%;
+    color: aqua;
+    text-align: center
 }
 
 #hero h1 {
