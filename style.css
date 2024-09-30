@@ -8,9 +8,8 @@
 
 body {
     line-height: 1.6;
-    background-color: #4DB6AC; /* Fallback green-blue color */
-    background: url("pngtree-green-blue-gradient-background-soft-blur-website-banner-vector-image_15524650.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background-image: url(pngtree-green-blue-gradient-background-soft-blur-website-banner-vector-image_15524650.jpg);
+    background-size: no-repeat cover;
     color: #333;
 }
 
@@ -95,7 +94,7 @@ ul {
 }
 
 ul li {
-    background: url('checkmark-icon.png') no-repeat left center;
+    background: url('pngtree-green-blue-gradient-background-soft-blur-website-banner-vector-image_15524650.jpg') no-repeat left center;
     background-size: 20px;
     padding-left: 30px;
     margin-bottom: 10px;
