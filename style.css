@@ -52,22 +52,25 @@ nav ul li a:hover {
 }
 
 /* Hero Section */
-#hero {
-    background: url('team-nurses-social-workers-helping-old-disabled-man-walk-with-his-crutches-out-nursing-home-room_482257-20730.jpg');
-    height: 400px;
+.hero {
+    background-image: url(team-nurses-social-workers-helping-old-disabled-man-walk-with-his-crutches-out-nursing-home-room_482257-20730.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: aqua;
     text-align: center
 }
 
-#hero h1 {
-    font-size: 3em;
+.hero-content h1 {
+    font-size: 2rem;
 }
 
-#hero p {
-    font-size: 1.5em;
+#hero-content p {
+    font-size: 1rem;
     margin-top: 10px;
 }
 
@@ -119,6 +122,10 @@ ul li {
 
 /* For smaller screens (responsive) */
 @media screen and (max-width: 768px) {
+   .hero {
+    height: 70vh;
+    background-size: contain;
+   }
     .service-images {
         grid-template-columns: 1fr; /* Stack images vertically on smaller screens */
     }
